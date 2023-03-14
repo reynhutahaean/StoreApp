@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="StoreApp" customModuleProvider="target">
+            <connections>
+                <outlet property="headerView" destination="5id-47-quC" id="A81-rc-gyB"/>
+                <outlet property="productsTableView" destination="cNe-pa-zgx" id="Ygl-aY-IAp"/>
+                <outlet property="view" destination="Is8-dP-1rx" id="iSx-qR-gaZ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Is8-dP-1rx">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Ya-BG-oXT">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="63"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="k7C-Np-HPb">
+                    <rect key="frame" x="0.0" y="134" width="393" height="684"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JP3-FP-Z6N">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="684"/>
+                            <subviews>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="cNe-pa-zgx">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="684"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                </tableView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="cNe-pa-zgx" firstAttribute="leading" secondItem="JP3-FP-Z6N" secondAttribute="leading" id="2eG-Ju-U6g"/>
+                                <constraint firstAttribute="trailing" secondItem="cNe-pa-zgx" secondAttribute="trailing" id="4Dk-Re-B3v"/>
+                                <constraint firstItem="cNe-pa-zgx" firstAttribute="top" secondItem="JP3-FP-Z6N" secondAttribute="top" id="mEm-Ri-npz"/>
+                                <constraint firstAttribute="bottom" secondItem="cNe-pa-zgx" secondAttribute="bottom" id="rrF-jY-6Vi"/>
+                                <constraint firstItem="cNe-pa-zgx" firstAttribute="top" secondItem="JP3-FP-Z6N" secondAttribute="top" id="xjo-uc-4qI"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                </stackView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5id-47-quC">
+                    <rect key="frame" x="0.0" y="63" width="393" height="61"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Products" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OVs-e5-hrv">
+                            <rect key="frame" x="151.33333333333334" y="0.0" width="90.666666666666657" height="61"/>
+                            <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
+                            <color key="textColor" red="0.99215686270000003" green="0.2274509804" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="OVs-e5-hrv" secondAttribute="bottom" id="14p-d0-pIi"/>
+                        <constraint firstAttribute="height" constant="61" id="3At-FT-TFO"/>
+                        <constraint firstItem="OVs-e5-hrv" firstAttribute="top" secondItem="5id-47-quC" secondAttribute="top" id="CXt-zI-Jyt"/>
+                        <constraint firstItem="OVs-e5-hrv" firstAttribute="centerY" secondItem="5id-47-quC" secondAttribute="centerY" id="hXA-aS-rjT"/>
+                        <constraint firstItem="OVs-e5-hrv" firstAttribute="centerX" secondItem="5id-47-quC" secondAttribute="centerX" id="lWS-BV-1BU"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fhd-nn-wYj"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="1Ya-BG-oXT" firstAttribute="trailing" secondItem="fhd-nn-wYj" secondAttribute="trailing" id="5YV-7O-6c9"/>
+                <constraint firstItem="1Ya-BG-oXT" firstAttribute="leading" secondItem="fhd-nn-wYj" secondAttribute="leading" id="6OH-MT-svJ"/>
+                <constraint firstItem="fhd-nn-wYj" firstAttribute="bottom" secondItem="k7C-Np-HPb" secondAttribute="bottom" id="C6W-qI-TAb"/>
+                <constraint firstItem="5id-47-quC" firstAttribute="trailing" secondItem="fhd-nn-wYj" secondAttribute="trailing" id="Eta-ja-bOU"/>
+                <constraint firstItem="5id-47-quC" firstAttribute="leading" secondItem="fhd-nn-wYj" secondAttribute="leading" id="Pu1-Vv-dkw"/>
+                <constraint firstItem="k7C-Np-HPb" firstAttribute="top" secondItem="5id-47-quC" secondAttribute="bottom" constant="10" id="QBq-8c-buk"/>
+                <constraint firstItem="1Ya-BG-oXT" firstAttribute="top" secondItem="Is8-dP-1rx" secondAttribute="top" id="Vn2-ik-Gxk"/>
+                <constraint firstItem="5id-47-quC" firstAttribute="top" secondItem="fhd-nn-wYj" secondAttribute="top" constant="4" id="X7t-Sv-SXE"/>
+                <constraint firstItem="k7C-Np-HPb" firstAttribute="leading" secondItem="fhd-nn-wYj" secondAttribute="leading" id="eNs-Yc-JtR"/>
+                <constraint firstItem="5id-47-quC" firstAttribute="top" secondItem="1Ya-BG-oXT" secondAttribute="bottom" id="ue5-PL-Isp"/>
+                <constraint firstItem="fhd-nn-wYj" firstAttribute="trailing" secondItem="k7C-Np-HPb" secondAttribute="trailing" id="z0s-tE-C8o"/>
+            </constraints>
+            <point key="canvasLocation" x="-675.36231884057975" y="19.419642857142858"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

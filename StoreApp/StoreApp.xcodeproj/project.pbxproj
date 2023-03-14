@@ -8,22 +8,62 @@
 
 /* Begin PBXBuildFile section */
 		BE90FEC129C00D44005A4CCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE90FEC029C00D44005A4CCC /* AppDelegate.swift */; };
-		BE90FEC329C00D44005A4CCC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE90FEC229C00D44005A4CCC /* SceneDelegate.swift */; };
 		BE90FEC529C00D44005A4CCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE90FEC429C00D44005A4CCC /* ViewController.swift */; };
 		BE90FEC829C00D44005A4CCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE90FEC629C00D44005A4CCC /* Main.storyboard */; };
 		BE90FECA29C00D47005A4CCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE90FEC929C00D47005A4CCC /* Assets.xcassets */; };
 		BE90FECD29C00D47005A4CCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE90FECB29C00D47005A4CCC /* LaunchScreen.storyboard */; };
+		BE90FEDD29C00E31005A4CCC /* HomeContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE90FEDC29C00E31005A4CCC /* HomeContract.swift */; };
+		BE90FEE429C00F24005A4CCC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE90FEE229C00F24005A4CCC /* HomeViewController.swift */; };
+		BE90FEE529C00F24005A4CCC /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE90FEE329C00F24005A4CCC /* HomeViewController.xib */; };
+		BE90FEE729C00F31005A4CCC /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE90FEE629C00F31005A4CCC /* HomeInteractor.swift */; };
+		BE90FEE929C00F3C005A4CCC /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE90FEE829C00F3C005A4CCC /* HomePresenter.swift */; };
+		BE90FEED29C00F53005A4CCC /* HomeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE90FEEC29C00F53005A4CCC /* HomeEntity.swift */; };
+		BE90FEEF29C00F5B005A4CCC /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE90FEEE29C00F5B005A4CCC /* HomeRouter.swift */; };
+		BE90FEF129C0105A005A4CCC /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE90FEF029C0105A005A4CCC /* ResponseModel.swift */; };
+		BE90FEF529C011A5005A4CCC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE90FEF429C011A5005A4CCC /* Constant.swift */; };
+		BE90FEFE29C0170E005A4CCC /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE90FEFA29C0170E005A4CCC /* Poppins-Medium.ttf */; };
+		BE90FEFF29C0170E005A4CCC /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE90FEFB29C0170E005A4CCC /* Poppins-ExtraBold.ttf */; };
+		BE90FF0029C0170E005A4CCC /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE90FEFC29C0170E005A4CCC /* Poppins-Regular.ttf */; };
+		BE90FF0129C0170E005A4CCC /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE90FEFD29C0170E005A4CCC /* Poppins-SemiBold.ttf */; };
+		BE90FF0529C0175A005A4CCC /* ProductsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE90FF0329C0175A005A4CCC /* ProductsTableViewCell.swift */; };
+		BE90FF0629C0175A005A4CCC /* ProductsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE90FF0429C0175A005A4CCC /* ProductsTableViewCell.xib */; };
+		BE90FF0929C01C3C005A4CCC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE90FF0729C01C3C005A4CCC /* DetailViewController.swift */; };
+		BE90FF0A29C01C3C005A4CCC /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE90FF0829C01C3C005A4CCC /* DetailViewController.xib */; };
+		BE90FF0D29C02934005A4CCC /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE90FF0B29C02934005A4CCC /* ImageCollectionViewCell.swift */; };
+		BE90FF0E29C02934005A4CCC /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE90FF0C29C02934005A4CCC /* ImageCollectionViewCell.xib */; };
+		E6E0C719B25C0C2439FEFA64 /* Pods_StoreApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB8D90A752F7E2250E25D99 /* Pods_StoreApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A4310A6D640353A6F5FB8BE /* Pods-StoreApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoreApp.debug.xcconfig"; path = "Target Support Files/Pods-StoreApp/Pods-StoreApp.debug.xcconfig"; sourceTree = "<group>"; };
+		569A54FC6D3C6C8A26104043 /* Pods-StoreApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoreApp.release.xcconfig"; path = "Target Support Files/Pods-StoreApp/Pods-StoreApp.release.xcconfig"; sourceTree = "<group>"; };
+		6EB8D90A752F7E2250E25D99 /* Pods_StoreApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StoreApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE90FEBD29C00D44005A4CCC /* StoreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE90FEC029C00D44005A4CCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BE90FEC229C00D44005A4CCC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BE90FEC429C00D44005A4CCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BE90FEC729C00D44005A4CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE90FEC929C00D47005A4CCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE90FECC29C00D47005A4CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE90FECE29C00D47005A4CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE90FEDC29C00E31005A4CCC /* HomeContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContract.swift; sourceTree = "<group>"; };
+		BE90FEE229C00F24005A4CCC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BE90FEE329C00F24005A4CCC /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		BE90FEE629C00F31005A4CCC /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		BE90FEE829C00F3C005A4CCC /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		BE90FEEC29C00F53005A4CCC /* HomeEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeEntity.swift; sourceTree = "<group>"; };
+		BE90FEEE29C00F5B005A4CCC /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		BE90FEF029C0105A005A4CCC /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		BE90FEF429C011A5005A4CCC /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		BE90FEFA29C0170E005A4CCC /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		BE90FEFB29C0170E005A4CCC /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		BE90FEFC29C0170E005A4CCC /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		BE90FEFD29C0170E005A4CCC /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		BE90FF0329C0175A005A4CCC /* ProductsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewCell.swift; sourceTree = "<group>"; };
+		BE90FF0429C0175A005A4CCC /* ProductsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductsTableViewCell.xib; sourceTree = "<group>"; };
+		BE90FF0729C01C3C005A4CCC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		BE90FF0829C01C3C005A4CCC /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		BE90FF0B29C02934005A4CCC /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		BE90FF0C29C02934005A4CCC /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +71,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6E0C719B25C0C2439FEFA64 /* Pods_StoreApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		206017DE3ABFF6D4A006709E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EB8D90A752F7E2250E25D99 /* Pods_StoreApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BE90FEB429C00D44005A4CCC = {
 			isa = PBXGroup;
 			children = (
 				BE90FEBF29C00D44005A4CCC /* StoreApp */,
 				BE90FEBE29C00D44005A4CCC /* Products */,
+				C4E15771E84C37CEE3E918B2 /* Pods */,
+				206017DE3ABFF6D4A006709E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,7 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				BE90FEC029C00D44005A4CCC /* AppDelegate.swift */,
-				BE90FEC229C00D44005A4CCC /* SceneDelegate.swift */,
+				BE90FED429C00D8D005A4CCC /* Core */,
+				BE90FED529C00DB0005A4CCC /* Modules */,
 				BE90FEC429C00D44005A4CCC /* ViewController.swift */,
 				BE90FEC629C00D44005A4CCC /* Main.storyboard */,
 				BE90FEC929C00D47005A4CCC /* Assets.xcassets */,
@@ -67,6 +119,104 @@
 			path = StoreApp;
 			sourceTree = "<group>";
 		};
+		BE90FED429C00D8D005A4CCC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BE90FF0229C01745005A4CCC /* Component */,
+				BE90FED929C00DFA005A4CCC /* Model */,
+				BE90FED829C00DF3005A4CCC /* Network */,
+				BE90FEF829C0170E005A4CCC /* Resources */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		BE90FED529C00DB0005A4CCC /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				BE90FEDA29C00E00005A4CCC /* Home */,
+				BE90FEDB29C00E06005A4CCC /* Detail */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		BE90FED829C00DF3005A4CCC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BE90FEF429C011A5005A4CCC /* Constant.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BE90FED929C00DFA005A4CCC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE90FEF029C0105A005A4CCC /* ResponseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE90FEDA29C00E00005A4CCC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BE90FEDC29C00E31005A4CCC /* HomeContract.swift */,
+				BE90FEE229C00F24005A4CCC /* HomeViewController.swift */,
+				BE90FEE329C00F24005A4CCC /* HomeViewController.xib */,
+				BE90FEE629C00F31005A4CCC /* HomeInteractor.swift */,
+				BE90FEE829C00F3C005A4CCC /* HomePresenter.swift */,
+				BE90FEEC29C00F53005A4CCC /* HomeEntity.swift */,
+				BE90FEEE29C00F5B005A4CCC /* HomeRouter.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BE90FEDB29C00E06005A4CCC /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				BE90FF0729C01C3C005A4CCC /* DetailViewController.swift */,
+				BE90FF0829C01C3C005A4CCC /* DetailViewController.xib */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		BE90FEF829C0170E005A4CCC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE90FEF929C0170E005A4CCC /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BE90FEF929C0170E005A4CCC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BE90FEFA29C0170E005A4CCC /* Poppins-Medium.ttf */,
+				BE90FEFB29C0170E005A4CCC /* Poppins-ExtraBold.ttf */,
+				BE90FEFC29C0170E005A4CCC /* Poppins-Regular.ttf */,
+				BE90FEFD29C0170E005A4CCC /* Poppins-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		BE90FF0229C01745005A4CCC /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				BE90FF0329C0175A005A4CCC /* ProductsTableViewCell.swift */,
+				BE90FF0429C0175A005A4CCC /* ProductsTableViewCell.xib */,
+				BE90FF0B29C02934005A4CCC /* ImageCollectionViewCell.swift */,
+				BE90FF0C29C02934005A4CCC /* ImageCollectionViewCell.xib */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		C4E15771E84C37CEE3E918B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A4310A6D640353A6F5FB8BE /* Pods-StoreApp.debug.xcconfig */,
+				569A54FC6D3C6C8A26104043 /* Pods-StoreApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE90FED129C00D47005A4CCC /* Build configuration list for PBXNativeTarget "StoreApp" */;
 			buildPhases = (
+				E96EC93C74CAECF69986A970 /* [CP] Check Pods Manifest.lock */,
 				BE90FEB929C00D44005A4CCC /* Sources */,
 				BE90FEBA29C00D44005A4CCC /* Frameworks */,
 				BE90FEBB29C00D44005A4CCC /* Resources */,
+				2ECDE3299596D791D99440B6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,21 +278,81 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE90FECD29C00D47005A4CCC /* LaunchScreen.storyboard in Resources */,
+				BE90FF0629C0175A005A4CCC /* ProductsTableViewCell.xib in Resources */,
+				BE90FF0E29C02934005A4CCC /* ImageCollectionViewCell.xib in Resources */,
 				BE90FECA29C00D47005A4CCC /* Assets.xcassets in Resources */,
+				BE90FF0029C0170E005A4CCC /* Poppins-Regular.ttf in Resources */,
 				BE90FEC829C00D44005A4CCC /* Main.storyboard in Resources */,
+				BE90FEE529C00F24005A4CCC /* HomeViewController.xib in Resources */,
+				BE90FF0129C0170E005A4CCC /* Poppins-SemiBold.ttf in Resources */,
+				BE90FF0A29C01C3C005A4CCC /* DetailViewController.xib in Resources */,
+				BE90FEFF29C0170E005A4CCC /* Poppins-ExtraBold.ttf in Resources */,
+				BE90FEFE29C0170E005A4CCC /* Poppins-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2ECDE3299596D791D99440B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StoreApp/Pods-StoreApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StoreApp/Pods-StoreApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StoreApp/Pods-StoreApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E96EC93C74CAECF69986A970 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StoreApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BE90FEB929C00D44005A4CCC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE90FEDD29C00E31005A4CCC /* HomeContract.swift in Sources */,
 				BE90FEC529C00D44005A4CCC /* ViewController.swift in Sources */,
 				BE90FEC129C00D44005A4CCC /* AppDelegate.swift in Sources */,
-				BE90FEC329C00D44005A4CCC /* SceneDelegate.swift in Sources */,
+				BE90FEE429C00F24005A4CCC /* HomeViewController.swift in Sources */,
+				BE90FF0D29C02934005A4CCC /* ImageCollectionViewCell.swift in Sources */,
+				BE90FF0529C0175A005A4CCC /* ProductsTableViewCell.swift in Sources */,
+				BE90FF0929C01C3C005A4CCC /* DetailViewController.swift in Sources */,
+				BE90FEE729C00F31005A4CCC /* HomeInteractor.swift in Sources */,
+				BE90FEED29C00F53005A4CCC /* HomeEntity.swift in Sources */,
+				BE90FEF529C011A5005A4CCC /* Constant.swift in Sources */,
+				BE90FEF129C0105A005A4CCC /* ResponseModel.swift in Sources */,
+				BE90FEE929C00F3C005A4CCC /* HomePresenter.swift in Sources */,
+				BE90FEEF29C00F5B005A4CCC /* HomeRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +494,7 @@
 		};
 		BE90FED229C00D47005A4CCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A4310A6D640353A6F5FB8BE /* Pods-StoreApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +508,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +524,7 @@
 		};
 		BE90FED329C00D47005A4CCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 569A54FC6D3C6C8A26104043 /* Pods-StoreApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +538,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
